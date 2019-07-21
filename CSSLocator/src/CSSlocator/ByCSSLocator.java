@@ -8,6 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class ByCSSLocator {
 	public static void main(String[] args) {
+		System.out.println("Application Starting");
 		System.setProperty( "webdriver.chrome.driver", "E:\\chromedriver_win32\\chromedriver.exe");
 		WebDriver webdriver = new ChromeDriver();
 		webdriver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
