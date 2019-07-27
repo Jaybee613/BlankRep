@@ -18,10 +18,7 @@ public class ByCSSLocator {
 		webdriver.findElement(By.xpath("//*[@id=\'identifierNext\']/span")).click();
 		
 		webdriver.findElement(By.cssSelector("#password > div.aCsJod.oJeWuf > div > div.Xb9hP > input")).sendKeys("Vedam@1953");
-		
-		
-		
-		
+				
 	}
 
 }
